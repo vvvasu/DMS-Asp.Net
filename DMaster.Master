@@ -1,0 +1,162 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DMaster.master.cs" Inherits="DMS.Pages.DMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+<link type="text/css" href="css/bootstrap-table.css" rel="stylesheet">
+<link type="text/css" href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-table.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 86px;
+        }
+        .auto-style3 {
+            height: 36px;
+        }
+        .auto-style4 {
+            border-style: none;
+            border-color: inherit;
+            border-width: medium;
+            width: 100%;
+            border-collapse: collapse;
+            
+            background-color:steelblue;
+            color:white;
+            height: 65px;
+            font-family: sans-serif;
+            text-decoration: none;
+            
+        }
+        .auto-style6 {
+            text-align: center;
+            width:1000px;
+            
+        }
+        .auto-style8 {
+            margin-top: 99px;
+            height: 117px;
+            text-align: left;
+        }
+        .auto-style10 {
+            color: #FFFFFF;
+        }
+        .auto-style12 {
+            text-decoration: none;
+        }
+        .auto-style13 {
+            text-decoration: underline;
+        }
+         .auto-style16 {
+            color: #333333
+        }
+    </style>
+</head>
+<body style="height :95px; width: 1000px; margin:0 auto;">
+    <form id="form1" runat="server">
+        <div id="header" class="auto-style1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <asp:Panel ID="Panel2" runat="server" BackColor="#666699" Height="98px">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1>&nbsp; <span class="auto-style10">DMS Western Province</span></h1>
+            
+          
+            <br />
+            </asp:Panel>
+        </div>
+        <br />
+        <br />
+    <div>
+        <div class="auto-style3">
+            <asp:Panel ID="Panel3" runat="server" BackColor="#000033" CssClass="auto-style13" Height="72px">
+
+    <table class="auto-style4">
+         <tr class="auto-style6">
+             <th  width="600px"></th>
+             <th width="150px"><i class="material-icons" style="font-size:22px;"><a id="tp" href="index.aspx" class="auto-style12"><span class="fa-inverse">home HOME</span></a></i></th>
+             <th width="200px"><i class="material-icons" style="font-size:22px;"><a id="tp" href="about.aspx" class="auto-style12"><span class="fa-inverse">info_outline ABOUT US</span></a></i> </th>
+             <th width="100px"><i class="material-icons" style="font-size:22px;"><a id="tp" href="post.aspx" class="auto-style12"><span class="fa-inverse">view_list POSTS</span></a></i> </th>
+             <th width="150px"><i class="material-icons" style="font-size:22px;"><a id="tp" href="map.aspx" class="auto-style12"><span class="fa-inverse">add_location MAP</span></a></i> </th>
+             <th width="150px"><i class="material-icons" style="font-size:22px;"><a id="tp" href="contact.aspx" class="auto-style12"><span class="fa-inverse">local_phone CONTACT US</span></a></i> </th>
+             
+             
+             
+         </tr>
+        
+    </table>
+    
+
+
+                                          
+
+            </asp:Panel>
+
+             <!--  ----------------------------------  -->  
+                
+              <table>
+
+                    <tr class="auto-style6">
+                                
+                                <td><asp:Button ID="btnprofile" runat="server" Text="Profile" BackColor="#0099FF" Font-Bold="True" ForeColor="White" Width="124px" OnClick="btnprofile_Click"    /></td>
+                                <td ><asp:Button ID="btnnotification" runat="server" Text="Notification" BackColor="#0099FF" CssClass="auto-style23" Font-Bold="True" ForeColor="White" Width="150px" OnClick="btnnotification_Click" /></td>
+                                <td ><asp:Button ID="btnsettings" runat="server" Text="Settings" BackColor="#0099FF" Font-Bold="True" ForeColor="White" Width="130px" OnClick="btnsettings_Click" /></td>
+                                <td ><asp:Button ID="btnlogin" runat="server" Text="Login" OnClick="btnlogin_Click" BackColor="#0099FF" Font-Bold="True" ForeColor="White" Width="111px" /></td>
+                                <td ><asp:Button ID="btnlogout" runat="server" Text="Logout" OnClick="btnlogout_Click" BackColor="#0099FF" Font-Bold="True" ForeColor="White" Width="132px" /></td>
+                                   <td>
+                                       <asp:Label ID="loggedin_username" runat="server" ><% Response.Write(Session["welcome"] + " " + Session["fname"] + " " + Session["lname"]); %></asp:Label>
+                                   </td> 
+                            
+        </tr>
+
+                </table>
+                
+<!--  ----------------------------------  --> 
+
+        </div>
+    </div>
+       
+    
+    
+    
+        <br class="auto-style13" />
+        <br class="auto-style13" />
+        <br class="auto-style13" />
+        <br class="auto-style13" />
+       
+    
+    
+    
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         <div id="footer" class="auto-style8">
+       
+             <asp:Panel ID="Panel1" runat="server" BackColor="#666699" Height="98px">
+             
+       
+          
+                 <br />
+                 <br />
+                 &nbsp; © 2017 Rubicon All right reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Follow us :
+             <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/facebook.png" />
+&nbsp;<asp:Image ID="Image2" runat="server" ImageUrl="~/Images/twitter.png" />
+&nbsp;<asp:Image ID="Image3" runat="server" ImageUrl="~/Images/googleplus.png" />
+&nbsp;<asp:Image ID="Image4" runat="server" ImageUrl="~/Images/youtube.png" />
+&nbsp;<asp:Image ID="Image5" runat="server" ImageUrl="~/Images/whatsapp1.png" Height="32px" Width="32px" />
+&nbsp;</asp:Panel>
+        </div>
+    </form>
+       
+    
+    
+    
+     </body>
+</html>
